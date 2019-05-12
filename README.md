@@ -22,4 +22,5 @@
 * Airbnb Style Guide as Conding Rule
 ```https://mitsuruog.github.io/javascript-style-guide/```
 
-### 宮島テスト
+## ディレクトリ構成
+* 書く
