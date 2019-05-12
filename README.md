@@ -1,0 +1,2 @@
+# numaHOUSE_toBuyList
+沼ハウスで必要な日用品を管理する
