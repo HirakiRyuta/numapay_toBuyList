@@ -1,14 +1,20 @@
-import React from 'react'
-import { Route } from 'react-router-dom'
+import React, { Component } from 'react'
 
 import './App.css'
+import Main from './container/Main'
+// import Header from './container/Header'
 
-function App() {
-  return (
-    <div className="App">
+class App extends Component {
 
-    </div>
-  )
+  render() {
+    return (
+      <div className="App">
+        {/* <Header /> */}
+        <Main />
+      </div>
+    )
+  }
+
 }
 
 export default App
