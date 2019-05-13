@@ -1,0 +1,35 @@
+{
+  "messages": {
+    "success":{
+      "read": "Successfully read item from ",
+      "insert": "Successfully inserted new item",
+      "update": "Successfully updated new item",
+      "delete": "Successfully deleted new item"
+    },
+    "error":{
+      "general":"Error occured: ",
+      "internal": "Internal Server Error",
+      "read": "Unable to read item. Error JSON: ",
+      "insert": "Failed to insert new item. Error JSON: ",
+      "update": "Failed to update new item. Error JSON: ",
+      "delete": "Failed to delete new item. Error JSON; ",
+      "nodata": "no corresponding data found"
+    },
+    "functionExecution": "Processing function: ",
+    "balanceConfirmation": {
+      "sufficient": "Confirmed that the sender has sufficient balance.",
+      "insufficient": "Sender does not have sufficient balance."
+    }
+
+  },
+  "database":{
+    "transaction": "transaction_records",
+    "pending": "pending_records",
+    "unsent": "unsent_records",
+    "user": "users",
+    "group": "groups",
+    "sequence": "sequences",
+    "wallet": "wallets",
+    "ticket": "tickets"
+  }
+}
