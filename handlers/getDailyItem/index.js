@@ -10,10 +10,6 @@ AWS.config.update({region: 'ap-northeast-1'});
 
 const getDailyItems = async () => {
   const dailyItems = await dynamoOperation.getDailyItems();
-  console.log('dailyItems')
-  console.log(dailyItems);
-  console.log('dailyItems.Items')
-  console.log(dailyItems.Items);
   return _.mapKeys(dailyItems.Items, 'item_id')
 }
 
