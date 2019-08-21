@@ -14,7 +14,6 @@
 ```yarn start```
 
 ## ルール(あれば追加)
-* ";" はファイルを重くするため記述しない
 * Componentsは .jsx で作る
 * フロントに見えない処理(actionsとかreducersとか)は .js で作る
 
