@@ -1,4 +1,4 @@
-import { READ_TO_BUY_LIST, COMPLETED_TO_BUY } from '../actions/index'
+import { READ_TO_BUY_ITEMS, COMPLETED_TO_BUY } from '../actions/index'
 import _ from 'lodash'
 
 const initialState = {}
@@ -8,12 +8,12 @@ export default (state = initialState, action) => {
   switch (action.type) {
 
     // resolve用 買わなければいけないものリスト
-    case READ_TO_BUY_LIST:
+    case READ_TO_BUY_ITEMS:
       const { data } = action.response
-      const toBuyList = _.mapKeys(data, 'request_id')
+      const toBuyItems = _.mapKeys(data, 'request_id')
       return {
         ...state,
-        toBuyList
+        toBuyItems
       }
 
     // resolve用 買ったらチェックボックスにクリックして削除
