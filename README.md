@@ -5,10 +5,7 @@
 ```npm install --global yarn```
 ## 諸々使うものをインストール
 ```
-* yarn add redux
-* yarn add react-redux
-* yarn add redux-thunk
-* yarn add redux-form
+* yarn
 ```
 ## アプリケーションの起動
 ```yarn start```
