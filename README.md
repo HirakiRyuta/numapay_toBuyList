@@ -5,7 +5,7 @@
 ```npm install --global yarn```
 ## 諸々使うものをインストール
 ```
-* yarn
+yarn
 ```
 ## アプリケーションの起動
 ```yarn start```
