@@ -1,7 +1,7 @@
-export const READ_TO_BUY_LIST = 'READ_TO_BUY_LIST'
+export const READ_TO_BUY_ITEMS = 'READ_TO_BUY_ITEMS'
 export const COMPLETED_TO_BUY = 'COMPLETED_TO_BUY'
 
-export const readToBuyList = () => dispatch => {
+export const readToBuyItems = () => dispatch => {
   const request_id = 0
   const name = 'たまご'
   const count = 2
@@ -15,7 +15,7 @@ export const readToBuyList = () => dispatch => {
   const created_at2 = '201904200830'
 
   const response = [{ request_id, name, count, is_urgent, created_at }, { request_id2, name2, count2, is_urgent2, created_at2 }]
-  dispatch({ type: READ_TO_BUY_LIST, response })
+  dispatch({ type: READ_TO_BUY_ITEMS, response })
 }
 
 export const completedToBuy = id => dispatch => {
